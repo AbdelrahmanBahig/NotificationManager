@@ -1,15 +1,16 @@
-import Notification
+from .Notification import Notification
+
 
 class SystemNotification():
     def __init__(self):
         self.notifications = []
     
-    def create_notification(self,user_id ,message):
+    def send_notification(self,user_id ,message):
         
         notification = Notification.Notification(user_id,message)
         self.notifications.append(notification)
 
-    def get_notification(self , user_id, message):
+    def view_notification(self , user_id, message):
         
         for n in self.notifications:
             if n.user_id == user_id and n.message == message:
