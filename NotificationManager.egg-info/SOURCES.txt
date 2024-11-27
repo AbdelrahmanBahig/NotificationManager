@@ -1,5 +1,10 @@
+LICENSE
+README.md
 setup.py
 NotificationManager.egg-info/PKG-INFO
 NotificationManager.egg-info/SOURCES.txt
 NotificationManager.egg-info/dependency_links.txt
 NotificationManager.egg-info/top_level.txt
+notification_manager/__init__.py
+notification_manager/notification.py
+notification_manager/system_notifications.py

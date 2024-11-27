@@ -4,5 +4,23 @@ Version: 1.0
 Summary: A simple notification manager package
 Home-page: https://github.com/AbdelrahmanBahig/NotificationManager
 Author: Abdelrahman Bahig
+Classifier: Progrmming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My Package
+
+A simple Notification package.
+
+Capapilities:
+1- create new notification
+2- view notification
+3- list all notifications
+4- show number of unread notifications
+
+## Installation
+
+```bash
+pip install NotificationManager

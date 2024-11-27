@@ -1,4 +1,4 @@
-from .Notification import Notification
+from notification_manager.notification import Notification
 
 
 class SystemNotification():
