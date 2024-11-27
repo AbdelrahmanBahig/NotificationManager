@@ -21,13 +21,14 @@ class SystemNotification():
     
 
     def mark_notifiction_as_read(self, user_id, message):
-         notification = self.view_notification(user_id,message)
-         notification.mark_as_read()
-         return notification
+        notification = self.view_notification(user_id,message)
+        notification.mark_as_read()
+        return notification
     
     def show_number_of_unread_notifications(self):
-        return Notification.Notification.number_of_notifictions
+        return Notification.number_of_notifictions
     
+
 
 
 
