@@ -1,4 +1,5 @@
 from notification_manager.notification import Notification
+from scrapper import Scrapper
 
 
 class SystemNotification():
@@ -28,6 +29,13 @@ class SystemNotification():
     def show_number_of_unread_notifications(self):
         return Notification.number_of_notifictions
     
+
+    def get_message(self,url,xpath):
+        scrap = Scrapper()
+        return scrap.extract_data(url,xpath)
+    
+
+
 
 
 
